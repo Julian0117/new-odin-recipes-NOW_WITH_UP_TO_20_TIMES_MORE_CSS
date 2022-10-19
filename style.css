@@ -1,0 +1,94 @@
+* {
+    font-family: Helvetica;
+    border: 0px solid red;
+}
+
+/* HOMEPAGE START*/
+
+div h1 {
+  text-align: center;
+  font-size: 5vw;
+  height: 7vw;
+  width: 100vw;
+  background-color: lightgreen;
+  color: violet;
+  margin-bottom: 5vh;
+}
+
+.homepage {
+  display: flex;
+  background-color: lightgreen;
+  padding: 2%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 0 1 300px;
+}
+
+.rezepte {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+#row-one,
+#row-two,
+#row-three {
+  display: flex;
+  height: 30vh;
+  gap: 1vw;
+}
+
+.rezepte li {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 40vh;
+/*border: 1px solid red;*/
+  text-align: center;
+}
+
+li a {
+  font-size: 1vw; 
+  height: 1vw;
+  width: auto;
+  padding: 1vh;
+  background-color: lightyellow;
+}
+
+li img {
+  display: flex;
+  height: 28vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* HOMEPAGE END*/
+
+body > .navigation {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+}
+
+/* .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+  }
+
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+} */
