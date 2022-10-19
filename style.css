@@ -9,24 +9,25 @@ div h1 {
   text-align: center;
   font-size: 5vw;
   height: 7vw;
-  width: 100vw;
   background-color: lightgreen;
   color: violet;
-  margin-bottom: 5vh;
+  margin: 0 4vw;
 }
 
 .homepage {
   display: flex;
+  width: fit-content;
   background-color: lightgreen;
   padding: 2%;
+  margin: 4vw 4vw 0;
 }
 
-.sidebar {
+/* .sidebar {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   flex: 0 1 300px;
-}
+} */
 
 .rezepte {
   display: flex;
@@ -38,7 +39,6 @@ div h1 {
 #row-two,
 #row-three {
   display: flex;
-  height: 30vh;
   gap: 1vw;
 }
 
@@ -46,24 +46,29 @@ div h1 {
   display: flex;
   flex-direction: column;
   flex: 1;
-  height: 40vh;
-/*border: 1px solid red;*/
-  text-align: center;
+  background-color: lightyellow;
+  padding: 1vh;
+  height: 15vw;
+  border: 1px solid black;
 }
 
 li a {
   font-size: 1vw; 
+  font-weight: 700;
   height: 1vw;
-  width: auto;
-  padding: 1vh;
   background-color: lightyellow;
+  text-align: center;
 }
 
 li img {
-  display: flex;
-  height: 28vh;
+  height: 14vw;
   width: 100%;
   object-fit: cover;
+  border: 1px solid black;
+}
+
+#cake {
+  height: 2vh;
 }
 
 /* HOMEPAGE END*/
