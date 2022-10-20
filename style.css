@@ -14,12 +14,13 @@ div h1 {
   margin: 0 4vw;
 }
 
-.homepage {
+.rezepte {
   display: flex;
-  width: fit-content;
+  flex-direction: column;
+  width: 80vw;
   background-color: lightgreen;
-  padding: 2%;
-  margin: 4vw 4vw 0;
+  padding: 3% 1%;
+  margin: 4vw auto 0;
 }
 
 /* .sidebar {
@@ -29,46 +30,60 @@ div h1 {
   flex: 0 1 300px;
 } */
 
-.rezepte {
+/* .rezepte {
   display: flex;
-  flex: 1 1 auto;
   flex-direction: column;
-}
+} */
 
 #row-one,
 #row-two,
 #row-three {
   display: flex;
-  gap: 1vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .rezepte li {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 0;
   background-color: lightyellow;
   padding: 1vh;
-  height: 15vw;
+  margin: -10px 0;
   border: 1px solid black;
-}
-
-li a {
-  font-size: 1vw; 
-  font-weight: 700;
-  height: 1vw;
-  background-color: lightyellow;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
 }
 
-li img {
-  height: 14vw;
-  width: 100%;
-  object-fit: cover;
-  border: 1px solid black;
+.rezepte li:hover {
+  background-color: pink;
 }
 
-#cake {
-  height: 2vh;
+.img-desc {
+  display: none;
+
+}
+
+li a {
+  font-weight: 700;
+  height: 1vw;
+  text-align: center;
+}
+
+/* a > div {
+
+} */
+
+/* li div {
+  height: 16vw;
+} */
+
+li img {
+  height: 200px;
+  width: 250px;
+  object-fit: cover;
+  border: 1px solid black;
 }
 
 /* HOMEPAGE END*/
